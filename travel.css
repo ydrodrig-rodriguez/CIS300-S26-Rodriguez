@@ -1,0 +1,122 @@
+body{ 
+    background-color: #811d1d; 
+    background-image: linear-gradient(to bottom, #ffffff, #811d1d);
+    color: #555555; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: white;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+header{ 
+      background-color: #811d1d;
+      background-image: url('images/sunset.jpg'); 
+      background-repeat: no-repeat;
+      background-position: right; 
+      height: 60px;
+      padding-top:15px;
+      color: #FFFFFF; 
+      text-align: center;
+}
+
+nav{ 
+    background-color: #FFFFFF; 
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a { 
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+main { 
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
+h1{ 
+    margin: 0; 
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2{ 
+    color: #e39518; 
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3{ 
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+input, textarea {
+    margin-bottom: .5em;
+}
+
+input {
+    padding: .5em;
+}
+
+dt{ 
+    color: #d8d636; 
+}
+
+td, th {
+    border: 2px solid #3399CC;
+    padding: 0.5em;
+}
+
+td {
+    text-align: center;
+}
+
+footer{ 
+    padding: 2em;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+}
+
+.resort {  
+    color: #1976D2; 
+    font-weight: bold; 
+}   
+
+#contact{
+    font-size: 90%;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url('images/me.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#placeshero {
+    height: 300px;
+    background-image: url('images/yurt.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#tipshero {
+    height: 300px;
+    background-image: url('images/trail.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
