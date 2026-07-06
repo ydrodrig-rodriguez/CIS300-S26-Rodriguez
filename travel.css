@@ -1,65 +1,117 @@
 body{ 
-    background-color: #811d1d; 
-    background-image: linear-gradient(to bottom, #ffffff, #811d1d);
-    color: #555555; 
+    background-color: #631404; 
+    background-image: linear-gradient(to bottom, #ffffff, #631404);
+    color: #330906; 
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+/*body sizing*/
 #wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     min-width: 960px;
     max-width: 2048px;
-    background-color: white;
-    box-shadow: 3px 3px 3px #333333;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px #330906;
 }
 
 header{ 
-      background-color: #811d1d;
-      background-image: url('images/sunset.jpg'); 
-      background-repeat: no-repeat;
-      background-position: right; 
+      background-color: #631404;
       height: 60px;
       padding-top:15px;
       color: #FFFFFF; 
       text-align: center;
 }
+/*figure what this is*/
+header a{ 
+    text-decoration: none;
+}
+header a:link{ 
+    color: #FFFFFF; 
+}
+header a:visited{ 
+    color: #FFFFFF; 
+}
+header a:hover{ 
+    color: #DF8525; 
+}
 
+/*navigation bar*/
 nav{ 
     background-color: #FFFFFF; 
     font-weight: bold;
     text-align: center;
     padding: 1em;
 }
-
+/*figure what this is*/
+nav li{ 
+    border-bottom: 1px solid #631404 ;
+}
+nav ul { 
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0;
+    padding-left: 0;
+}
 nav a { 
     text-decoration: none;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
+nav a:link { 
+    color: #A52A2A;
+}
+nav a:visited { 
+    color: #631404;
+}
+nav a:hover { 
+    color: #A52A2A;
+}
+nav a:active {
+  color: #DF8525; 
+}
+/*navigation end*/
+
+a:link {
+  color: #A52A2A; 
+}
+a:visited {
+  color: #631404; 
+}
+a:hover {
+  color: #A52A2A; 
+}
+/*active state (the moment it is clicked) */
+a:active {
+  color: #DF8525; 
+}
+
 
 main { 
-    padding: 1px 20px 20px 20px;
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    padding: 1px 20px 20px 30px;
+    overflow: auto;
     display: block;
 }
 
 h1{ 
     margin: 0; 
+    color: #330906;
     font-family: Georgia, 'Times New Roman', serif;
 }
-
 h2{ 
-    color: #e39518; 
+    color: #DF8525; 
     font-family: Georgia, 'Times New Roman', serif;
     text-shadow: 1px 1px 1px #CCCCCC;
 }
-
 h3{ 
-    color: #000033;
+    color: #DCB73E;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
+/* Subscription Form */
 form {
     display: flex;
     flex-flow: column nowrap;
@@ -67,41 +119,38 @@ form {
 input, textarea {
     margin-bottom: .5em;
 }
-
 input {
     padding: .5em;
 }
+/* End Form */
 
 dt{ 
-    color: #d8d636; 
+    color: #DCB73E; 
 }
-
 td, th {
-    border: 2px solid #3399CC;
+    border: 2px solid #D72304;
     padding: 0.5em;
 }
-
 td {
     text-align: center;
 }
 
 footer{ 
     padding: 2em;
-    font-family: Georgia, 'Times New Roman', serif;
     font-size: 75%;
     font-style: italic;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 .resort {  
-    color: #1976D2; 
+    color: #D72304; 
     font-weight: bold; 
 }   
 
 #contact{
     font-size: 90%;
 }
-
 #homehero {
     height: 300px;
     background-image: url('images/me.jpg');
@@ -110,13 +159,13 @@ footer{
 }
 #placeshero {
     height: 300px;
-    background-image: url('images/yurt.jpg');
+    background-image: url('images/place.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #tipshero {
     height: 300px;
-    background-image: url('images/trail.jpg');
+    background-image: url('images/tip.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
