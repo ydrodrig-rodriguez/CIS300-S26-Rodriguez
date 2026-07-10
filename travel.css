@@ -90,7 +90,6 @@ a:active {
 
 main { 
     background-color: #FFFFFF;
-    padding-left: 30px;
     padding: 1px 20px 20px 30px;
     overflow: auto;
     display: block;
@@ -128,11 +127,16 @@ dt{
     color: #DCB73E; 
 }
 td, th {
-    border: 2px solid #D72304;
+    border: 2px solid #DCB73E;
     padding: 0.5em;
 }
 td {
     text-align: center;
+}
+table {
+    border-spacing: 0;
+    border: 2px solid #DCB73E;
+    border-collapse: collapse;
 }
 
 footer{ 
@@ -143,6 +147,10 @@ footer{
     font-family: Georgia, 'Times New Roman', serif;
 }
 
+video{
+    float: right;
+    margin: 1em;
+}
 .resort {  
     color: #D72304; 
     font-weight: bold; 
@@ -169,3 +177,15 @@ footer{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+#langhero {
+    height: 300px;
+    background-image: url('images/kinder.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+ .flow{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
